@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator_pro.css">
+    <title>calculator</title>
+</head>
+<body>
+      <form name="sci-calc">
+       <table class="calculator" cellspacing="0" cellpadding="1">
+         <!-- display section -->
+         <tr>
+           <td colspan="5"><input id="screenn" value="">
+            <select name="angles" id="angles">
+              <option value="deg" id="deg">DEG</option>
+              <option value="rad" id="rad">RAD</option>
+              <option value="grad">GRAD</option>
+            </select>
+          </td>
+           
+         </tr>
+
+         <tr>
+          <td colspan="5"><input id="answer"></td>
+        </tr>
+
+        <!-- first row -->
+         <tr>
+           <td><input type="button" class="btnTop" id="clear" value="C"></td>
+           <td><input type="button" class="btnTop" id="clear1" value="CE"></td>
+           <td><input type="button" class="btnTop" id="back" value="<--"></td>
+           <td><input type="button" class="btnOpps" id="pie" value="π"></td>
+           <td><input type="button" class="btnMath" id="sign" value="%"></td>
+         </tr>
+
+         <!-- second row -->
+         <tr>
+           <td><input type="button" class="btnNum" id="num" value="7"></td>
+           <td><input type="button" class="btnNum" id="num" value="8"></td>
+           <td><input type="button" class="btnNum" id="num" value="9"></td>
+           <td><input type="button" class="btnMath" id="power" value="x^"></td>
+           <td><input type="button" class="btnMath" id="sign" value="/"></td>
+         </tr>
+
+         <!-- third row -->
+         <tr>
+           <td><input type="button" class="btnNum" id="num" value="4"></td>
+           <td><input type="button" class="btnNum" id="num" value="5"></td>
+           <td><input type="button" class="btnNum" id="num" value="6"></td>
+           <td><input type="button" class="btnMath" id="changeSign" value="-/+"></td>
+           <td><input type="button" class="btnMath" id="sign" value="*"></td>
+         </tr>
+
+         <!-- fourth row -->
+         <tr>
+           <td><input type="button" class="btnNum" id="num" value="1"></td>
+           <td><input type="button" class="btnNum" id="num" value="2"></td>
+           <td><input type="button" class="btnNum" id="num" value="3"></td>
+           <td><input type="button" class="btnMath" id="sign" value="√"></td>
+           <td><input type="button" class="btnMath" id="sign" value="-"></td>
+         </tr>
+
+         <!-- fifth row -->
+         <tr>
+           <td><input type="button" class="btnOpps" id="tan" value="tan"></td>
+           <td><input type="button" class="btnNum" id="num" value="0"></td>
+           <td><input type="button" class="btnMath" id="sign" value="."></td>
+           <td><input type="button" class="btnMath" id="square" value="x^2"></td>
+           <td><input type="button" class="btnMath" id="sign" value="+"></td>
+         </tr>
+
+         <!-- sixth row -->
+         <tr>
+           <td><input type="button" class="btnMath" id="num" value="("></td>
+          <td><input type="button" class="btnMath" id="num" value=")"></td>
+           <td><input type="button" class="btnOpps" id="cos" value="cos"></td>
+           <td><input type="button" class="btnOpps" id="sin" value="sin"></td>
+           <td><input type="button" class="btnTop" id="equal" value="="></td>
+        </tr>
+       </table>
+      </form>
+           
+           
+
+
+    <script src="calculator_pro.js"></script>
+    
+</body>
+</html>
